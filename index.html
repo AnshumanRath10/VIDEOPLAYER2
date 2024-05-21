@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Video Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="video-container">
+        <div class="video-wrapper">
+            <video id="custom-video" width="640" height="360">
+                <source src="360.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div class="button-container">
+        <div class="custom-controls">
+            <button id="prev-video-btn"><i class="fas fa-step-backward"></i></button>
+            <button id="seek-backward-btn"><i class="fas fa-backward"></i></button>
+            <button id="play-button"><i class="fas fa-play"></i></button>
+            <button id="seek-forward-btn"><i class="fas fa-forward"></i></button>
+            <button id="next-video-btn"><i class="fas fa-step-forward"></i></button>
+            <button id="volume-up-btn"><i class="fas fa-volume-up"></i></button>
+            <button id="volume-down-btn"><i class="fas fa-volume-down"></i></button>
+            <button id="speed-increase-btn">Speed +</button>
+            <button id="speed-decrease-btn">Speed -</button>
+            <button id="weather-btn"><i class="fas fa-cloud-sun"></i> Weather</button>
+        </div>
+    </div>
+    <div id="comment-section">
+        <h3>Comments</h3>
+        <div id="comments">
+            <div class="comment">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Mickey_Mouse_%28poster_version%29.svg" alt="User1">
+                <p>User1: Great video!</p>
+            </div>
+            <div class="comment">
+                <img src="https://upload.wikimedia.org/wikipedia/en/1/17/Bugs_Bunny.svg" alt="User2">
+                <p>User2: Very informative.</p>
+            </div>
+            <div class="comment">
+                <img src="https://upload.wikimedia.org/wikipedia/en/f/f4/Daffy_Duck.svg" alt="User3">
+                <p>User3: I love this content.</p>
+            </div>
+        </div>
+        <textarea id="comment-box" placeholder="Add a comment..."></textarea>
+        <button id="add-comment-btn">Add Comment</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+body {
+  background-color: #2c3e50; /* Dark blue background */
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.video-container {
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.video-wrapper {
+  display: inline-block;
+}
+
+.button-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.custom-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #383131; /* Dark background for the button container */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.custom-controls button {
+  background-color: #666; /* Slightly lighter background for buttons */
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.custom-controls button:hover {
+  background-color: #d08181; /* Even lighter on hover */
+}
+
+#comment-section {
+  background-color: #bdc3c7; /* Light grey background for comment section */
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#comments {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.comment {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.comment img {
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.comment p {
+  margin: 0;
+  padding: 10px;
+  background-color: #ecf0f1;
+  border-radius: 5px;
+}
+
+#comment-box {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#add-comment-btn {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#add-comment-btn:hover {
+  background-color: #666;
+}
+#comment-section {
+  background-color: #bdc3c7; /* Light grey background for comment section */
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: none; /* Hide the comment section by default */
+}
